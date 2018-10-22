@@ -69,10 +69,40 @@ var x = 5;
  console.log('The value of my variable j is: ' + j);
  console.log('The value of my variable k is: ' + k);
  
- if (g===h===j===k) {
-    console.log('g\,h\,j and k are SAME TYPE');
+ if (g===h) {
+    console.log('g and h are SAME TYPE');
 	}else{
-		console.log('g\,h\,j and k are NOT SAME TYPE');
+		console.log('g and h are NOT SAME TYPE');
+	}
+	
+ if (g===j) {
+    console.log('g and j are SAME TYPE');
+	}else{
+		console.log('g and j are NOT SAME TYPE');
+	}
+	
+ if (g===k) {
+    console.log('g and k are SAME TYPE');
+	}else{
+		console.log('g and k are NOT SAME TYPE');
+	}
+	
+ if (h===j) {
+    console.log('h and j are SAME TYPE');
+	}else{
+		console.log('h and j are NOT SAME TYPE');
+	}
+	
+ if (h===k) {
+    console.log('h and k are SAME TYPE');
+	}else{
+		console.log('h and k are NOT SAME TYPE');
+	}
+	
+ if (j===k) {
+    console.log('j and k are SAME TYPE');
+	}else{
+		console.log('j and k are NOT SAME TYPE');
 	}
 	
 //part 9

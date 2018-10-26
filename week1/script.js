@@ -24,7 +24,7 @@ x = 5;
  console.log(x);
  
  //part 4
-let y ;
+let y = "It\'s my life";
  console.log('the value of my variable y will be: undefined');
  console.log(y);
  
@@ -70,9 +70,9 @@ let l = myString.length;
  console.log('The value of my variable k is: ' + k);
  
  if (g===h) {
-    console.log('g and h are SAME TYPE');
+    console.log(g , + 'and ' ,+ h ,' are SAME TYPE');
 	}else{
-		console.log('g and h are NOT SAME TYPE');
+		console.log(g , + 'and ' ,+ h ,'are NOT SAME TYPE');
 	}
 	
  if (g===j) {

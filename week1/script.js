@@ -1,14 +1,14 @@
 // Home Work Part 1
-let Lang = "in English";
-console.log("Hello World "+ Lang); //English
-Lang = "in Nederlands";
-console.log("Hallo wereld "+ Lang); //Dutch
-Lang = "en Français";
-console.log("Bonjour le monde "+ Lang); //Frensh
-Lang = "in italiano";
-console.log("Ciao mondo " + Lang); //Italian
-Lang = "en español";
-console.log("Hola mundo " + Lang); //Spanish
+let myLang = "in English";
+console.log("Hello World "+ myLang); //English
+myLang = "in Nederlands";
+console.log("Hallo wereld "+ myLang); //Dutch
+myLang = "en Français";
+console.log("Bonjour le monde "+ myLang); //Frensh
+myLang = "in italiano";
+console.log("Ciao mondo " + myLang); //Italian
+myLang = "en español";
+console.log("Hola mundo " + myLang); //Spanish
 
 /* Home Work Part 2
 console.log('I'm awesome'); have an error and should be like following */
@@ -25,7 +25,7 @@ x = 5;
  
  //part 4
 let y = "It\'s my life";
- console.log('the value of my variable y will be: undefined');
+ console.log('the value of my variable y will be: It\'s my life');
  console.log(y);
  
 y = "Just I add this words to test";
